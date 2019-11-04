@@ -1,8 +1,10 @@
-@import 'core/settings';
-@import 'core/links';
+@import "core/settings";
+@import "core/reset";
+@import "core/links";
+@import "layouts/header";
 
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
+  background: url("../images/logo-adalab-80px.png") center center no-repeat $color-white;
+  margin: 0;
+  height: 100vh;
 }
