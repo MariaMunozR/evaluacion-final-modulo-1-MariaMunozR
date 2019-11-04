@@ -1,3 +1,27 @@
+//a borrar luego- border//
 .header {
   border: solid 3px red;
+  height: 100vh;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: border-box;
 }
+
+.hamburger-button {
+  background-color: #0271bc;
+  position: fixed;
+}
+.ico-menu {
+  background: white;
+}
+.header-moto {
+  font-size: 80px;
+  color: white;
+}
+.header-moto-habitase {
+  font-size: 24px;
+  color: white;
+}
+/*.back-cover {
+  height: 100vh;
+}*/
