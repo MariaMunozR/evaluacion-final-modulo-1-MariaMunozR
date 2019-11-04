@@ -1,6 +1,4 @@
-//a borrar luego- border//
 .header {
-  /*border: solid 3px red;*/
   height: 100vh;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
@@ -19,29 +17,43 @@
   width: 16px;
   height: 14px;
 }
-//a partir de aqui tocar/
+//a partir de aqui tocar pte alineacion, tamaños contenedores/
 .header-moto {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
   top: 50%;
   bottom: 15.6%;
-  left: 21.5%;
-  right: 21.5%;
+  justify-content: space-around;
 }
 .moto {
   font-size: 80px;
-  font-family: roboto slab;
+  /*font-family: roboto slab;*/
   color: white;
-  display: flex;
-  justify-content: center;
+  display: block;
+  align-items: center;
+
+  /*justify-content: c;*/
   margin: 50px 50px 0px 50px;
 }
 .moto-habitase {
   font-size: 24px;
   color: white;
 }
-/*.back-cover {
-  height: 100vh;
-}*/
+
+///ver que pasa con tamaño, posicionamiento y border radius//
+.button-container {
+  margin-top: 10px;
+  align-items: center;
+}
+.header-button {
+  width: 45px;
+  height: 45px;
+
+  background-color: white;
+}
+.ico-scroll-down {
+  transform: rotate(180deg);
+}
