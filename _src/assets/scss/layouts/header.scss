@@ -30,12 +30,10 @@
 }
 .moto {
   font-size: 80px;
-  /*font-family: roboto slab;*/
+  font-family: roboto slab;
   color: white;
   display: block;
   align-items: center;
-
-  /*justify-content: c;*/
   margin: 50px 50px 0px 50px;
 }
 .moto-habitase {
@@ -43,17 +41,24 @@
   color: white;
 }
 
-///ver que pasa con tamaño, posicionamiento y border radius//
+///ver que pasa con  posicionamiento de la imagen //
 .button-container {
-  margin-top: 10px;
-  align-items: center;
+  width: 22.5px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
-.header-button {
+.button {
   width: 45px;
   height: 45px;
-
-  background-color: white;
+  align-self: center;
+  padding: 10px;
 }
 .ico-scroll-down {
-  transform: rotate(180deg);
+  background-image: url("_src/assets/icons/ico-scroll-down.svg");
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 45px;
+  background-position: center;
+  border-radius: 50%;
 }
