@@ -1,1 +1,1 @@
-.reasons {background-color: #eff9ff;border: 3px solid hotpink;}
+.reasons {background-color: #eff9ff;height: 427px;width: 100vw;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 1fr 1fr 1fr;grid-auto-flow: column;}.reasons-title {border: solid 3px grey;grid-column: 0 / 4;grid-row: 1 / 2;}.reasons-list {list-style: none;}.reasons-metus {border: solid 3px blue;}.reasons-erat {border: solid 3px red;}.reasons-dictum {border: solid 3px yellow;}
