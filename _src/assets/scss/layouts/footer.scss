@@ -1,9 +1,11 @@
 .footer {
   background-color: #304268;
-  border: 3px solid grey;
+
   width: 100vw;
   height: 240px;
   display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 .copy {
   width: 159px;
@@ -28,9 +30,22 @@
 }
 .articles-list {
   color: white;
+  list-style: none;
 }
 .link {
   color: white;
+  text-decoration: none;
+}
+.social {
+  width: 161px;
+  height: 150px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+}
+.social-list {
+  color: white;
+  list-style: none;
 }
 .social {
   width: 159px;
