@@ -1,7 +1,37 @@
 .reasons {
   background-color: #eff9ff;
+  height: 427px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.reasons-title {
+  border: solid 3px grey;
+  grid-column: 0 / 4;
+  grid-row: 0 / 1;
+}
+.reasons-list {
+  list-style: none;
 }
 
+.reasons-metus {
+  border: solid 3px blue;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.reasons-erat {
+  border: solid 3px red;
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+.reasons-dictum {
+  border: solid 3px yellow;
+  grid-column: 3 / 4;
+  grid-row: 2/4;
+}
 //adorno intemedio, va al final//
 /*::after {
   width: 45px;
