@@ -27,11 +27,12 @@
   top: 50%;
   bottom: 15.6%;
   justify-content: space-around;
+  font-family: RobotoSlab;
 }
 .moto {
   font-size: 80px;
-  font-family: roboto slab;
   color: white;
+  font-family: RobotoSlab-Bold;
   display: block;
   align-items: center;
   margin: 50px 50px 0px 50px;
@@ -53,6 +54,7 @@
   height: 45px;
   align-self: center;
   padding: 10px;
+ 
 }
 .ico-scroll-down {
   background-color: white;
