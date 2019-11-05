@@ -24,11 +24,12 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: ;
   position: absolute;
   top: 50%;
   bottom: 15.6%;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: nowrap;
   font-family: Roboto;
 }
 .moto {
@@ -36,7 +37,7 @@
   color: white;
   font-family: Roboto;
   display: block;
-  align-items: center;
+  align-content: center;
   margin: 50px 50px 0px 50px;
 }
 .moto-habitase {
@@ -50,6 +51,8 @@
 }
 
 .button-container {
+  background-color: none;
+  border: none;
   width: 22.5px;
   height: 50px;
 }
@@ -58,7 +61,12 @@
   height: 45px;
   align-self: center;
   padding: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+  border: 0px;
 }
+
 .ico-scroll-down {
   background-color: white;
   background-image: url("../images/ico-scroll-down.svg");
