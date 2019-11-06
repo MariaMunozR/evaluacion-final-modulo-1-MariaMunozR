@@ -1,0 +1,15 @@
+.newsection {
+  border: 3px solid red;
+  width: 100vw;
+  background-color: rgb(242, 96, 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsection_title {
+  border: 3px solid blue;
+  color: white;
+}
+.newsection_date {
+  border: 3px solid green;
+}
